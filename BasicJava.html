@@ -1,0 +1,2023 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="/css/ExtraCSS/CommonCss.css">
+    <script src="/scripts/CommonJS.js"></script>
+</head>
+
+<body style="text-align: center;">
+
+    <div class="jumbotron text-center">
+        <h1>Java Basics</h1>
+    </div>
+
+    <br>
+
+    <div class="container">
+
+        <!-- Introduction -->
+        <div class="list-group">
+
+            <ul class="list-group">
+
+                <!-- Introduction Header -->
+                <div>
+                    <li class="list-group-item list-group-item-primary sublist" data-toggle="collapse"
+                        data-target="#collapseIntro" aria-expanded="false" aria-controls="collapseIntro">
+                        <h4>Introduction</h4>
+                    </li>
+                </div>
+
+                <!-- List -->
+                <div id="collapseIntro" class="collapse">
+
+                    <li class="list-group-item list-group-item-success sublist" data-toggle="collapse"
+                        data-target="#collapseIntroduction" aria-expanded="false" aria-controls="collapseIntroduction">
+                        Basic Introduction
+                    </li>
+
+                    <div class="collapse" id="collapseIntroduction">
+
+                        <div id="accordion">
+
+                            <!-- Programs -->
+                            <div class="card sublist">
+
+                                <div class="card-header">
+                                    <div class="btn-group">
+
+                                        <button type="button" class="btn btn-primary dropdown-toggle"
+                                            data-toggle="dropdown">
+                                            Programs
+                                        </button>
+
+                                        <div class="dropdown-menu">
+
+                                            <a class="collapsed card-link"
+                                                onclick="prepareFrame('IntroductionMethods','A_Introduction/HelloWorld.java')">
+                                                Hello World</a><br>
+
+                                            <a class="collapsed card-link" onclick="hideFrame('IntroductionMethods')">
+                                                hide</a><br>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div id="IntroductionMethods"></div>
+
+                            </div>
+
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </ul>
+        </div>
+
+        <br><br>
+
+        <!-- PrimitiveDataTypes -->
+        <div class="list-group">
+
+            <ul class="list-group">
+
+                <!-- PrimitiveDataTypes Header -->
+                <div>
+                    <li class="list-group-item list-group-item-primary sublist" data-toggle="collapse"
+                        data-target="#collapsePrimitiveDataTypes" aria-expanded="false"
+                        aria-controls="collapsePrimitiveDataTypes">
+                        <h4>Primitive Data Types</h4>
+                    </li>
+                </div>
+
+                <div id="collapsePrimitiveDataTypes" class="collapse">
+
+                    <!-- Short -->
+                    <div>
+
+                        <li class="list-group-item list-group-item-success sublist" data-toggle="collapse"
+                            data-target="#collapseShort" aria-expanded="false" aria-controls="collapseShort">Short
+                        </li>
+
+                        <div class="collapse" id="collapseShort">
+
+                            <div id="accordion">
+
+                                <div class="card sublist">
+
+                                    <div class="card-header">
+                                        <div class="btn-group">
+
+                                            <button type="button" class="btn btn-primary dropdown-toggle"
+                                                data-toggle="dropdown">
+                                                Programs
+                                            </button>
+
+                                            <div class="dropdown-menu">
+
+                                                <a class="collapsed card-link"
+                                                    onclick="prepareFrame('ShortMethods','D_Collection/A_List/B_LinkedList/LinkedListMethod.java')">
+                                                    check</a><br>
+
+                                                <a class="collapsed card-link" onclick="hideFrame('ShortMethods')">
+                                                    hide</a><br>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div id="ShortMethods"></div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Byte -->
+                    <div>
+
+                        <li class="list-group-item list-group-item-success sublist" data-toggle="collapse"
+                            data-target="#collapseByte" aria-expanded="false" aria-controls="collapseByte">Byte
+                        </li>
+
+                        <div class="collapse" id="collapseByte">
+
+                            <div id="accordion">
+
+                                <div class="card sublist">
+
+                                    <div class="card-header">
+                                        <div class="btn-group">
+
+                                            <button type="button" class="btn btn-primary dropdown-toggle"
+                                                data-toggle="dropdown">
+                                                Programs
+                                            </button>
+
+                                            <div class="dropdown-menu">
+
+                                                <a class="collapsed card-link"
+                                                    onclick="prepareFrame('ArrayListMethods','D_Collection/A_List/B_LinkedList/LinkedListMethod.java')">
+                                                    check</a><br>
+
+                                                <a class="collapsed card-link" onclick="hideFrame('ArrayListMethods')">
+                                                    hide</a><br>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div id="ArrayListMethods"></div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Int -->
+                    <div>
+
+                        <li class="list-group-item list-group-item-success sublist" data-toggle="collapse"
+                            data-target="#collapseInt" aria-expanded="false" aria-controls="collapseInt">Int
+                        </li>
+
+                        <div class="collapse" id="collapseInt">
+
+                            <div id="accordion">
+
+                                <div class="card sublist">
+
+                                    <div class="card-header">
+                                        <div class="btn-group">
+
+                                            <button type="button" class="btn btn-primary dropdown-toggle"
+                                                data-toggle="dropdown">
+                                                Programs
+                                            </button>
+
+                                            <div class="dropdown-menu">
+
+                                                <a class="collapsed card-link"
+                                                    onclick="prepareFrame('IntMethods','D_Collection/A_List/B_LinkedList/LinkedListMethod.java')">
+                                                    check</a><br>
+
+                                                <a class="collapsed card-link" onclick="hideFrame('IntMethods')">
+                                                    hide</a><br>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div id="IntMethods"></div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Long -->
+                    <div>
+
+                        <li class="list-group-item list-group-item-success sublist" data-toggle="collapse"
+                            data-target="#collapseLong" aria-expanded="false" aria-controls="collapseLong">Long
+                        </li>
+
+                        <div class="collapse" id="collapseLong">
+
+                            <div id="accordion">
+
+                                <div class="card sublist">
+
+                                    <div class="card-header">
+                                        <div class="btn-group">
+
+                                            <button type="button" class="btn btn-primary dropdown-toggle"
+                                                data-toggle="dropdown">
+                                                Programs
+                                            </button>
+
+                                            <div class="dropdown-menu">
+
+                                                <a class="collapsed card-link"
+                                                    onclick="prepareFrame('LongMethods','D_Collection/A_List/B_LinkedList/LinkedListMethod.java')">
+                                                    check</a><br>
+
+                                                <a class="collapsed card-link" onclick="hideFrame('LongMethods')">
+                                                    hide</a><br>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div id="LongMethods"></div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Float-->
+                    <div>
+
+                        <li class="list-group-item list-group-item-success sublist" data-toggle="collapse"
+                            data-target="#collapseFloat" aria-expanded="false" aria-controls="collapseFloat">Float
+                        </li>
+
+                        <div class="collapse" id="collapseFloat">
+
+                            <div id="accordion">
+
+                                <div class="card sublist">
+
+                                    <div class="card-header">
+                                        <div class="btn-group">
+
+                                            <button type="button" class="btn btn-primary dropdown-toggle"
+                                                data-toggle="dropdown">
+                                                Programs
+                                            </button>
+
+                                            <div class="dropdown-menu">
+
+                                                <a class="collapsed card-link"
+                                                    onclick="prepareFrame('FloatMethods','D_Collection/A_List/B_LinkedList/LinkedListMethod.java')">
+                                                    check</a><br>
+
+                                                <a class="collapsed card-link" onclick="hideFrame('FloatMethods')">
+                                                    hide</a><br>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div id="FloatMethods"></div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Double -->
+                    <div>
+
+                        <li class="list-group-item list-group-item-success sublist" data-toggle="collapse"
+                            data-target="#collapseDouble" aria-expanded="false" aria-controls="collapseDouble">Double
+                        </li>
+
+                        <div class="collapse" id="collapseDouble">
+
+                            <div id="accordion">
+
+                                <div class="card sublist">
+
+                                    <div class="card-header">
+                                        <div class="btn-group">
+
+                                            <button type="button" class="btn btn-primary dropdown-toggle"
+                                                data-toggle="dropdown">
+                                                Programs
+                                            </button>
+
+                                            <div class="dropdown-menu">
+
+                                                <a class="collapsed card-link"
+                                                    onclick="prepareFrame('DoubleMethods','D_Collection/A_List/B_LinkedList/LinkedListMethod.java')">
+                                                    check</a><br>
+
+                                                <a class="collapsed card-link" onclick="hideFrame('DoubleMethods')">
+                                                    hide</a><br>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div id="DoubleMethods"></div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Char-->
+                    <div>
+
+                        <li class="list-group-item list-group-item-success sublist" data-toggle="collapse"
+                            data-target="#collapseChar" aria-expanded="false" aria-controls="collapseChar">Char
+                        </li>
+
+                        <div class="collapse" id="collapseChar">
+
+                            <div id="accordion">
+
+                                <div class="card sublist">
+
+                                    <div class="card-header">
+                                        <div class="btn-group">
+
+                                            <button type="button" class="btn btn-primary dropdown-toggle"
+                                                data-toggle="dropdown">
+                                                Programs
+                                            </button>
+
+                                            <div class="dropdown-menu">
+
+                                                <a class="collapsed card-link"
+                                                    onclick="prepareFrame('CharMethods','B_PrimitiveDataTypes/AllCharcters.java')">
+                                                    All Charcters</a><br>
+
+                                                <a class="collapsed card-link" onclick="hideFrame('CharMethods')">
+                                                    hide</a><br>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div id="CharMethods"></div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Boolean -->
+                    <div>
+
+                        <li class="list-group-item list-group-item-success sublist" data-toggle="collapse"
+                            data-target="#collapseBoolean" aria-expanded="false" aria-controls="collapseBoolean">Boolean
+                        </li>
+
+                        <div class="collapse" id="collapseBoolean">
+
+                            <div id="accordion">
+
+                                <div class="card sublist">
+
+                                    <div class="card-header">
+                                        <div class="btn-group">
+
+                                            <button type="button" class="btn btn-primary dropdown-toggle"
+                                                data-toggle="dropdown">
+                                                Programs
+                                            </button>
+
+                                            <div class="dropdown-menu">
+
+                                                <a class="collapsed card-link"
+                                                    onclick="prepareFrame('BooleanMethods','D_Collection/A_List/B_LinkedList/LinkedListMethod.java')">
+                                                    check</a><br>
+
+                                                <a class="collapsed card-link" onclick="hideFrame('BooleanMethods')">
+                                                    hide</a><br>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div id="BooleanMethods"></div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </ul>
+        </div>
+
+        <br><br>
+
+        <!-- NonPrimitiveDataTypes -->
+        <div class="list-group">
+
+            <ul class="list-group">
+
+                <!-- NonPrimitiveDataTypes Header -->
+                <div>
+                    <li class="list-group-item list-group-item-primary sublist" data-toggle="collapse"
+                        data-target="#collapseNonPrimitive" aria-expanded="false" aria-controls="collapseNonPrimitive">
+                        <h4>Non Primitive Data Types</h4>
+                    </li>
+                </div>
+
+                <div class="collapse" id="collapseNonPrimitive">
+
+                    <!-- String -->
+                    <div>
+
+                        <li class="list-group-item list-group-item-success sublist" data-toggle="collapse"
+                            data-target="#collapseString" aria-expanded="false" aria-controls="collapseString">String
+                        </li>
+
+                        <div class="collapse" id="collapseString">
+
+                            <!-- String -->
+                            <div id="accordion">
+
+                                <div class="card sublist">
+
+                                    <div class="card-header">
+                                        <div class="btn-group">
+
+                                            <button type="button" class="btn btn-primary dropdown-toggle"
+                                                data-toggle="dropdown">
+                                                Programs
+                                            </button>
+
+                                            <div class="dropdown-menu">
+
+                                                <a class="collapsed card-link"
+                                                    onclick="prepareFrame('StringMethods','D_Collection/A_List/B_LinkedList/LinkedListMethod.java')">
+                                                    check</a><br>
+
+                                                <a class="collapsed card-link" onclick="hideFrame('StringMethods')">
+                                                    hide</a><br>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div id="StringMethods"></div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Array -->
+                    <div>
+
+                        <li class="list-group-item list-group-item-success sublist" data-toggle="collapse"
+                            data-target="#collapseArray" aria-expanded="false" aria-controls="collapseArray">Array
+                        </li>
+
+                        <div class="collapse" id="collapseArray">
+
+                            <!-- Array -->
+                            <div id="accordion">
+
+                                <div class="card sublist">
+
+                                    <div class="card-header">
+                                        <div class="btn-group">
+
+                                            <button type="button" class="btn btn-primary dropdown-toggle"
+                                                data-toggle="dropdown">
+                                                Programs
+                                            </button>
+
+                                            <div class="dropdown-menu">
+
+                                                <a class="collapsed card-link"
+                                                    onclick="prepareFrame('ArrayMethods','D_Collection/A_List/B_LinkedList/LinkedListMethod.java')">
+                                                    check</a><br>
+
+                                                <a class="collapsed card-link" onclick="hideFrame('ArrayMethods')">
+                                                    hide</a><br>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div id="ArrayMethods"></div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Class -->
+                    <div>
+
+                        <li class="list-group-item list-group-item-success sublist" data-toggle="collapse"
+                            data-target="#collapseClass" aria-expanded="false" aria-controls="collapseClass">Class
+                        </li>
+
+                        <div class="collapse" id="collapseClass">
+
+                            <!-- Class -->
+                            <div id="accordion">
+
+                                <div class="card sublist">
+
+                                    <div class="card-header">
+                                        <div class="btn-group">
+
+                                            <button type="button" class="btn btn-primary dropdown-toggle"
+                                                data-toggle="dropdown">
+                                                Programs
+                                            </button>
+
+                                            <div class="dropdown-menu">
+
+                                                <a class="collapsed card-link"
+                                                    onclick="prepareFrame('ClassMethods','D_Collection/A_List/B_LinkedList/LinkedListMethod.java')">
+                                                    check</a><br>
+
+                                                <a class="collapsed card-link" onclick="hideFrame('ClassMethods')">
+                                                    hide</a><br>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div id="ClassMethods"></div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </ul>
+        </div>
+
+        <br><br>
+
+        <!-- Collection -->
+        <div class="list-group">
+
+            <ul class="list-group">
+
+                <!-- Collection Header -->
+                <div>
+                    <li class="list-group-item list-group-item-primary sublist" data-toggle="collapse"
+                        data-target="#collapseCollection" aria-expanded="false" aria-controls="collapseCollection">
+                        <h4>Collection</h4>
+                    </li>
+                </div>
+
+                <div class="collapse" id="collapseCollection">
+
+                    <!-- List -->
+                    <div>
+
+                        <li class="list-group-item list-group-item-success sublist" data-toggle="collapse"
+                            data-target="#collapseList" aria-expanded="false" aria-controls="collapseList">List
+                        </li>
+
+                        <div class="collapse" id="collapseList">
+
+                            <div id="accordion">
+
+                                <!-- ArrayList -->
+                                <div class="card sublist">
+
+                                    <div class="card-header">
+                                        <div class="btn-group">
+
+                                            <button type="button" class="btn btn-primary dropdown-toggle"
+                                                data-toggle="dropdown">
+                                                ArrayList
+                                            </button>
+
+                                            <div class="dropdown-menu">
+
+                                                <a class="collapsed card-link"
+                                                    onclick="prepareFrame('ArrayList','D_Collection/A_List/B_LinkedList/LinkedListMethod.java')">
+                                                    check</a><br>
+
+                                                <a class="collapsed card-link"
+                                                    onclick="prepareFrame('ArrayList','D_Collection/A_List/B_LinkedList/LinkedListMethod.java')">
+                                                    Basic Method1 </a><br>
+
+                                                <a class="collapsed card-link"
+                                                    onclick="prepareFrame('ArrayList','D_Collection/A_List/B_LinkedList/LinkedListMethod.java')">
+                                                    Basic Into
+                                                </a><br>
+
+                                                <a class="collapsed card-link" onclick="hideFrame('ArrayList')">
+                                                    hide</a><br>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div id="ArrayList"></div>
+
+                                </div>
+
+                                <!-- LinkedList -->
+                                <div class="card sublist">
+
+                                    <div class="card-header">
+                                        <div class="btn-group">
+
+                                            <button type="button" class="btn btn-primary dropdown-toggle"
+                                                data-toggle="dropdown">
+                                                LinkedList
+                                            </button>
+
+                                            <div class="dropdown-menu">
+
+                                                <a class="collapsed card-link"
+                                                    onclick="prepareFrame('LinkedListMethods','D_Collection/A_List/B_LinkedList/LinkedListMethod.java')">
+                                                    check</a><br>
+
+                                                <a class="collapsed card-link"
+                                                    onclick="prepareFrame('LinkedListMethods','D_Collection/A_List/B_LinkedList/LinkedListMethod.java')">
+                                                    Basic Method1 </a><br>
+
+                                                <a class="collapsed card-link"
+                                                    onclick="prepareFrame('LinkedListMethods','D_Collection/A_List/B_LinkedList/LinkedListMethod.java')">
+                                                    Basic Into
+                                                </a><br>
+
+                                                <a class="collapsed card-link" onclick="hideFrame('LinkedListMethods')">
+                                                    hide</a><br>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div id="LinkedListMethods"></div>
+                                </div>
+
+                                <!-- Vector -->
+                                <div class="card sublist">
+
+                                    <div class="card-header">
+                                        <div class="btn-group">
+
+                                            <button type="button" class="btn btn-primary dropdown-toggle"
+                                                data-toggle="dropdown">
+                                                Vector
+                                            </button>
+
+                                            <div class="dropdown-menu">
+
+                                                <a class="collapsed card-link"
+                                                    onclick="prepareFrame('VectorMethods','D_Collection/A_List/B_LinkedList/LinkedListMethod.java')">
+                                                    check</a><br>
+
+                                                <a class="collapsed card-link"
+                                                    onclick="prepareFrame('VectorMethods','D_Collection/A_List/B_LinkedList/LinkedListMethod.java')">
+                                                    Basic Method1 </a><br>
+
+                                                <a class="collapsed card-link"
+                                                    onclick="prepareFrame('VectorMethods','D_Collection/A_List/B_LinkedList/LinkedListMethod.java')">
+                                                    Basic Into
+                                                </a><br>
+
+                                                <a class="collapsed card-link" onclick="hideFrame('VectorMethods')">
+                                                    hide</a><br>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div id="VectorMethods"></div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Set -->
+                    <div>
+
+                        <li class="list-group-item list-group-item-success sublist" data-toggle="collapse"
+                            data-target="#collapseSet" aria-expanded="false" aria-controls="collapseSet">Set
+                        </li>
+
+                        <div class="collapse" id="collapseSet">
+
+                            <div id="accordion">
+
+                                <!--HashSet -->
+                                <div class="card sublist">
+
+                                    <div class="card-header">
+                                        <div class="btn-group">
+
+                                            <button type="button" class="btn btn-primary dropdown-toggle"
+                                                data-toggle="dropdown">
+                                                HashSet
+                                            </button>
+
+                                            <div class="dropdown-menu">
+
+                                                <a class="collapsed card-link"
+                                                    onclick="prepareFrame('HashSetMethods','D_Collection/A_List/B_LinkedList/LinkedListMethod.java')">
+                                                    check</a><br>
+
+                                                <a class="collapsed card-link"
+                                                    onclick="prepareFrame('HashSetMethods','D_Collection/A_List/B_LinkedList/LinkedListMethod.java')">
+                                                    Basic Method1 </a><br>
+
+                                                <a class="collapsed card-link" data-toggle="collapse"
+                                                    onclick="prepareFrame('HashSetMethods','D_Collection/A_List/B_LinkedList/LinkedListMethod.java')">
+                                                    Basic Method2 </a><br>
+
+                                                <a class="collapsed card-link" onclick="hideFrame('HashSetMethods')">
+                                                    hide</a><br>
+
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div id="HashSetMethods"></div>
+
+                                </div>
+
+                                <!-- LinkedhashSet -->
+                                <div class="card sublist">
+
+                                    <div class="card-header">
+                                        <div class="btn-group">
+
+                                            <button type="button" class="btn btn-primary dropdown-toggle"
+                                                data-toggle="dropdown">
+                                                LinkedHashSet
+                                            </button>
+
+                                            <div class="dropdown-menu">
+
+                                                <a class="collapsed card-link"
+                                                    onclick="prepareFrame('LinkedHashSetMethods','D_Collection/A_List/B_LinkedList/LinkedListMethod.java')">
+                                                    check</a><br>
+
+                                                <a class="collapsed card-link"
+                                                    onclick="prepareFrame('LinkedHashSetMethods','D_Collection/A_List/B_LinkedList/LinkedListMethod.java')">
+                                                    Basic Method1 </a><br>
+
+                                                <a class="collapsed card-link" data-toggle="collapse"
+                                                    onclick="prepareFrame('LinkedHashSetMethods','D_Collection/A_List/B_LinkedList/LinkedListMethod.java')">
+                                                    Basic Method2 </a><br>
+
+                                                <a class="collapsed card-link"
+                                                    onclick="hideFrame('LinkedHashSetMethods')">
+                                                    hide</a><br>
+
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div id="LinkedHashSetMethods"></div>
+
+                                </div>
+
+                                <!-- TreeSet-->
+                                <div class="card sublist">
+
+                                    <div class="card-header">
+                                        <div class="btn-group">
+
+                                            <button type="button" class="btn btn-primary dropdown-toggle"
+                                                data-toggle="dropdown">
+                                                TreeSet
+                                            </button>
+
+                                            <div class="dropdown-menu">
+
+                                                <a class="collapsed card-link"
+                                                    onclick="prepareFrame('TreeSetMethods','D_Collection/A_List/B_LinkedList/LinkedListMethod.java')">
+                                                    check</a><br>
+
+                                                <a class="collapsed card-link"
+                                                    onclick="prepareFrame('TreeSetMethods','D_Collection/A_List/B_LinkedList/LinkedListMethod.java')">
+                                                    Basic Method1 </a><br>
+
+                                                <a class="collapsed card-link" data-toggle="collapse"
+                                                    onclick="prepareFrame('TreeSetMethods','D_Collection/A_List/B_LinkedList/LinkedListMethod.java')">
+
+                                                    Basic Method2 </a><br>
+
+                                                <a class="collapsed card-link" onclick="hideFrame('TreeSetMethods')">
+                                                    hide</a><br>
+
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div id="TreeSetMethods"></div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Map -->
+                    <div>
+
+                        <li class="list-group-item list-group-item-success sublist" data-toggle="collapse"
+                            data-target="#collapseMap" aria-expanded="false" aria-controls="collapseMap">Map
+                        </li>
+
+                        <div class="collapse" id="collapseMap">
+
+                            <div id="accordion">
+
+                                <!-- HashMap -->
+                                <div class="card sublist">
+
+                                    <div class="card-header">
+                                        <div class="btn-group">
+
+                                            <button type="button" class="btn btn-primary dropdown-toggle"
+                                                data-toggle="dropdown">
+                                                HashMap
+                                            </button>
+
+                                            <div class="dropdown-menu">
+
+                                                <a class="collapsed card-link"
+                                                    onclick="prepareFrame('HashMapMethods','D_Collection/A_List/B_LinkedList/LinkedListMethod.java')">
+                                                    check</a><br>
+
+                                                <a class="collapsed card-link"
+                                                    onclick="prepareFrame('HashMapMethods','D_Collection/A_List/B_LinkedList/LinkedListMethod.java')">
+                                                    Basic Method1 </a><br>
+
+                                                <a class="collapsed card-link" data-toggle="collapse"
+                                                    onclick="prepareFrame('HashMapMethods','D_Collection/A_List/B_LinkedList/LinkedListMethod.java')">
+                                                    Basic Method2 </a><br>
+
+                                                <a class="collapsed card-link" onclick="hideFrame('HashMapMethods')">
+                                                    hide</a><br>
+
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div id="HashMapMethods"></div>
+                                </div>
+
+                                <!-- LinkedHashMap-->
+                                <div class="card sublist">
+
+                                    <div class="card-header">
+                                        <div class="btn-group">
+
+                                            <button type="button" class="btn btn-primary dropdown-toggle"
+                                                data-toggle="dropdown">
+                                                LinkedHashMap
+                                            </button>
+
+
+                                            <div class="dropdown-menu">
+
+                                                <a class="collapsed card-link"
+                                                    onclick="prepareFrame('LinkedHashMethods','D_Collection/A_List/B_LinkedList/LinkedListMethod.java')">
+                                                    check</a><br>
+
+                                                <a class="collapsed card-link"
+                                                    onclick="prepareFrame('LinkedHashMethods','D_Collection/A_List/B_LinkedList/LinkedListMethod.java')">
+                                                    Basic Method1 </a><br>
+
+                                                <a class="collapsed card-link" data-toggle="collapse"
+                                                    onclick="prepareFrame('LinkedHashMethods','D_Collection/A_List/B_LinkedList/LinkedListMethod.java')">
+                                                    Basic Method2 </a><br>
+
+                                                <a class="collapsed card-link" onclick="hideFrame('LinkedHashMethods')">
+                                                    hide</a><br>
+
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div id="LinkedHashMethods"></div>
+
+                                </div>
+
+                                <!-- TreeMap -->
+                                <div class="card sublist">
+
+                                    <div class="card-header">
+                                        <div class="btn-group">
+
+                                            <button type="button" class="btn btn-primary dropdown-toggle"
+                                                data-toggle="dropdown">
+                                                TreeMap
+                                            </button>
+
+                                            <div class="dropdown-menu">
+
+                                                <a class="collapsed card-link"
+                                                    onclick="prepareFrame('TreeMapMethods','D_Collection/A_List/B_LinkedList/LinkedListMethod.java')">
+                                                    check</a><br>
+
+                                                <a class="collapsed card-link"
+                                                    onclick="prepareFrame('TreeMapMethods','D_Collection/A_List/B_LinkedList/LinkedListMethod.java')">
+                                                    Basic Method1 </a><br>
+
+                                                <a class="collapsed card-link" data-toggle="collapse"
+                                                    onclick="prepareFrame('TreeMapMethods','D_Collection/A_List/B_LinkedList/LinkedListMethod.java')">
+                                                    Basic Method2 </a><br>
+
+                                                <a class="collapsed card-link" onclick="hideFrame('TreeMapMethods')">
+                                                    hide</a><br>
+
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div id="TreeMapMethods"></div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </ul>
+        </div>
+
+        <br><br>
+
+        <!-- AccessModifiers -->
+        <div class="list-group">
+
+            <ul class="list-group">
+
+                <!-- AccessModifiers Header -->
+                <div>
+                    <li class="list-group-item list-group-item-primary sublist" data-toggle="collapse"
+                        data-target="#collapseAccessModifiers" aria-expanded="false"
+                        aria-controls="collapseAccessModifiers">
+                        <h4>Access Modifiers</h4>
+                    </li>
+                </div>
+
+                <div class="collapse" id="collapseAccessModifiers">
+
+                    <!-- Public -->
+                    <div>
+
+                        <li class="list-group-item list-group-item-success sublist" data-toggle="collapse"
+                            data-target="#collapsePublic" aria-expanded="false" aria-controls="collapsePublic">Public
+                        </li>
+
+                        <div class="collapse" id="collapsePublic">
+
+                            <div id="accordion">
+                                <div class="card sublist">
+
+                                    <div class="card-header">
+                                        <div class="btn-group">
+
+                                            <button type="button" class="btn btn-primary dropdown-toggle"
+                                                data-toggle="dropdown">
+                                                Programs
+                                            </button>
+
+                                            <div class="dropdown-menu">
+
+                                                <a class="collapsed card-link"
+                                                    onclick="prepareFrame('PublicMethods','D_Collection/A_List/B_LinkedList/LinkedListMethod.java')">
+                                                    check</a><br>
+
+                                                <a class="collapsed card-link"
+                                                    onclick="prepareFrame('PublicMethods','D_Collection/A_List/B_LinkedList/LinkedListMethod.java')">
+                                                    Basic Method1 </a><br>
+
+                                                <a class="collapsed card-link"
+                                                    onclick="prepareFrame('PublicMethods','D_Collection/A_List/B_LinkedList/LinkedListMethod.java')">
+                                                    Basic Into
+                                                </a><br>
+
+                                                <a class="collapsed card-link" onclick="hideFrame('PublicMethods')">
+                                                    hide</a><br>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div id="PublicMethods"></div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Private -->
+                    <div>
+
+                        <li class="list-group-item list-group-item-success sublist" data-toggle="collapse"
+                            data-target="#collapsePrivate" aria-expanded="false" aria-controls="collapsePrivate">Private
+                        </li>
+
+                        <div class="collapse" id="collapsePrivate">
+
+                            <div id="accordion">
+                                <div class="card sublist">
+
+                                    <div class="card-header">
+                                        <div class="btn-group">
+
+                                            <button type="button" class="btn btn-primary dropdown-toggle"
+                                                data-toggle="dropdown">
+                                                Programs
+                                            </button>
+
+                                            <div class="dropdown-menu">
+
+                                                <a class="collapsed card-link"
+                                                    onclick="prepareFrame('PrivateMethods','D_Collection/A_List/B_LinkedList/LinkedListMethod.java')">
+                                                    check</a><br>
+
+                                                <a class="collapsed card-link"
+                                                    onclick="prepareFrame('PrivateMethods','D_Collection/A_List/B_LinkedList/LinkedListMethod.java')">
+                                                    Basic Method1 </a><br>
+
+                                                <a class="collapsed card-link"
+                                                    onclick="prepareFrame('PrivateMethods','D_Collection/A_List/B_LinkedList/LinkedListMethod.java')">
+                                                    Basic Into
+                                                </a><br>
+
+                                                <a class="collapsed card-link" onclick="hideFrame('PrivateMethods')">
+                                                    hide</a><br>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div id="PrivateMethods"></div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Protected -->
+                    <div>
+
+                        <li class="list-group-item list-group-item-success sublist" data-toggle="collapse"
+                            data-target="#collapseProtected" aria-expanded="false" aria-controls="collapseProtected">
+                            Protected
+                        </li>
+
+                        <div class="collapse" id="collapseProtected">
+
+                            <div id="accordion">
+                                <div class="card sublist">
+
+                                    <div class="card-header">
+                                        <div class="btn-group">
+
+                                            <button type="button" class="btn btn-primary dropdown-toggle"
+                                                data-toggle="dropdown">
+                                                Programs
+                                            </button>
+
+                                            <div class="dropdown-menu">
+
+                                                <a class="collapsed card-link"
+                                                    onclick="prepareFrame('ProtectedMethods','D_Collection/A_List/B_LinkedList/LinkedListMethod.java')">
+                                                    check</a><br>
+
+                                                <a class="collapsed card-link"
+                                                    onclick="prepareFrame('ProtectedMethods','D_Collection/A_List/B_LinkedList/LinkedListMethod.java')">
+                                                    Basic Method1 </a><br>
+
+                                                <a class="collapsed card-link"
+                                                    onclick="prepareFrame('ProtectedMethods','D_Collection/A_List/B_LinkedList/LinkedListMethod.java')">
+                                                    Basic Into
+                                                </a><br>
+
+                                                <a class="collapsed card-link" onclick="hideFrame('ProtectedMethods')">
+                                                    hide</a><br>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div id="ProtectedMethods"></div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Default -->
+                    <div>
+
+                        <li class="list-group-item list-group-item-success sublist" data-toggle="collapse"
+                            data-target="#collapseDefault" aria-expanded="false" aria-controls="collapseDefault">Default
+                        </li>
+
+                        <div class="collapse" id="collapseDefault">
+
+                            <div id="accordion">
+                                <div class="card sublist">
+
+                                    <div class="card-header">
+                                        <div class="btn-group">
+
+                                            <button type="button" class="btn btn-primary dropdown-toggle"
+                                                data-toggle="dropdown">
+                                                Programs
+                                            </button>
+
+                                            <div class="dropdown-menu">
+
+                                                <a class="collapsed card-link"
+                                                    onclick="prepareFrame('DefaultMethods','D_Collection/A_List/B_LinkedList/LinkedListMethod.java')">
+                                                    check</a><br>
+
+                                                <a class="collapsed card-link"
+                                                    onclick="prepareFrame('DefaultMethods','D_Collection/A_List/B_LinkedList/LinkedListMethod.java')">
+                                                    Basic Method1 </a><br>
+
+                                                <a class="collapsed card-link"
+                                                    onclick="prepareFrame('DefaultMethods','D_Collection/A_List/B_LinkedList/LinkedListMethod.java')">
+                                                    Basic Into
+                                                </a><br>
+
+                                                <a class="collapsed card-link" onclick="hideFrame('DefaultMethods')">
+                                                    hide</a><br>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div id="DefaultMethods"></div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </ul>
+        </div>
+
+        <br><br>
+
+        <!-- NonAccessModifiers -->
+        <div class="list-group">
+
+            <ul class="list-group">
+
+                <!-- NonAccessModifiers Header -->
+                <div>
+                    <li class="list-group-item list-group-item-primary sublist" data-toggle="collapse"
+                        data-target="#collapseNonAccessM" aria-expanded="false" aria-controls="collapseNonAccessM">
+                        <h4>Non Access Modifiers</h4>
+                    </li>
+                </div>
+
+                <div class="collapse" id="collapseNonAccessM">
+
+                    <!--  Final  -->
+                    <div>
+
+                        <li class="list-group-item list-group-item-success sublist" data-toggle="collapse"
+                            data-target="#collapseFinal" aria-expanded="false" aria-controls="collapseFinal">Final
+                        </li>
+
+                        <div class="collapse" id="collapseFinal">
+
+                            <div id="accordion">
+
+                                <!-- Final -->
+                                <div class="card sublist">
+
+                                    <div class="card-header">
+                                        <div class="btn-group">
+
+                                            <button type="button" class="btn btn-primary dropdown-toggle"
+                                                data-toggle="dropdown">
+                                                Programs
+                                            </button>
+
+                                            <div class="dropdown-menu">
+
+                                                <a class="collapsed card-link"
+                                                    onclick="prepareFrame('FinalMethods','D_Collection/A_List/B_LinkedList/LinkedListMethod.java')">
+                                                    check</a><br>
+
+                                                <a class="collapsed card-link"
+                                                    onclick="prepareFrame('FinalMethods','D_Collection/A_List/B_LinkedList/LinkedListMethod.java')">
+                                                    Basic Method1 </a><br>
+
+                                                <a class="collapsed card-link"
+                                                    onclick="prepareFrame('FinalMethods','D_Collection/A_List/B_LinkedList/LinkedListMethod.java')">
+                                                    Basic Into
+                                                </a><br>
+
+                                                <a class="collapsed card-link" onclick="hideFrame('FinalMethods')">
+                                                    hide</a><br>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div id="FinalMethods"></div>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!--  Static  -->
+                    <div>
+
+                        <li class="list-group-item list-group-item-success sublist" data-toggle="collapse"
+                            data-target="#collapseStatic" aria-expanded="false" aria-controls="collapseStatic">Static
+                        </li>
+
+                        <div class="collapse" id="collapseStatic">
+
+                            <div id="accordion">
+
+                                <!-- Static -->
+                                <div class="card sublist">
+
+                                    <div class="card-header">
+                                        <div class="btn-group">
+
+                                            <button type="button" class="btn btn-primary dropdown-toggle"
+                                                data-toggle="dropdown">
+                                                Programs
+                                            </button>
+
+                                            <div class="dropdown-menu">
+
+                                                <a class="collapsed card-link"
+                                                    onclick="prepareFrame('StaticMethods','D_Collection/A_List/B_LinkedList/LinkedListMethod.java')">
+                                                    check</a><br>
+
+                                                <a class="collapsed card-link"
+                                                    onclick="prepareFrame('StaticMethods','D_Collection/A_List/B_LinkedList/LinkedListMethod.java')">
+                                                    Basic Method1 </a><br>
+
+                                                <a class="collapsed card-link"
+                                                    onclick="prepareFrame('StaticMethods','D_Collection/A_List/B_LinkedList/LinkedListMethod.java')">
+                                                    Basic Into
+                                                </a><br>
+
+                                                <a class="collapsed card-link" onclick="hideFrame('StaticMethods')">
+                                                    hide</a><br>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div id="StaticMethods"></div>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </ul>
+        </div>
+
+        <br><br>
+
+        <!-- OOPS -->
+        <div class="list-group">
+
+            <ul class="list-group">
+
+                <!-- OOPS Header -->
+                <div>
+                    <li class="list-group-item list-group-item-primary sublist" data-toggle="collapse"
+                        data-target="#collapseOOPS" aria-expanded="false" aria-controls="collapseOOPS">
+                        <h4>OOPS</h4>
+                    </li>
+                </div>
+
+                <div class="collapse" id="collapseOOPS">
+
+                    <!-- Encapsulation -->
+                    <div>
+
+                        <li class="list-group-item list-group-item-success sublist" data-toggle="collapse"
+                            data-target="#collapseEncapsulation" aria-expanded="false"
+                            aria-controls="collapseEncapsulation">Encapsulation
+                        </li>
+
+                        <div class="collapse" id="collapseEncapsulation">
+
+                            <div id="accordion">
+                                <div class="card sublist">
+
+                                    <div class="card-header">
+                                        <div class="btn-group">
+
+                                            <button type="button" class="btn btn-primary dropdown-toggle"
+                                                data-toggle="dropdown">
+                                                Programs
+                                            </button>
+
+                                            <div class="dropdown-menu">
+
+                                                <a class="collapsed card-link"
+                                                    onclick="prepareFrame('EncapsulationMethods','D_Collection/A_List/B_LinkedList/LinkedListMethod.java')">
+                                                    check</a><br>
+
+                                                <a class="collapsed card-link"
+                                                    onclick="prepareFrame('EncapsulationMethods','D_Collection/A_List/B_LinkedList/LinkedListMethod.java')">
+                                                    Basic Method1 </a><br>
+
+                                                <a class="collapsed card-link"
+                                                    onclick="prepareFrame('EncapsulationMethods','D_Collection/A_List/B_LinkedList/LinkedListMethod.java')">
+                                                    Basic Into
+                                                </a><br>
+
+                                                <a class="collapsed card-link"
+                                                    onclick="hideFrame('EncapsulationMethods')">
+                                                    hide</a><br>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div id="EncapsulationMethods"></div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Abstraction -->
+                    <div>
+
+                        <li class="list-group-item list-group-item-success sublist" data-toggle="collapse"
+                            data-target="#collapseAbstraction" aria-expanded="false"
+                            aria-controls="collapseAbstraction">Abstraction
+                        </li>
+
+                        <div class="collapse" id="collapseAbstraction">
+
+                            <div id="accordion">
+                                <div class="card sublist">
+
+                                    <div class="card-header">
+                                        <div class="btn-group">
+
+                                            <button type="button" class="btn btn-primary dropdown-toggle"
+                                                data-toggle="dropdown">
+                                                Programs
+                                            </button>
+
+                                            <div class="dropdown-menu">
+
+                                                <a class="collapsed card-link"
+                                                    onclick="prepareFrame('AbstractionMethods','D_Collection/A_List/B_LinkedList/LinkedListMethod.java')">
+                                                    check</a><br>
+
+                                                <a class="collapsed card-link"
+                                                    onclick="prepareFrame('AbstractionMethods','D_Collection/A_List/B_LinkedList/LinkedListMethod.java')">
+                                                    Basic Method1 </a><br>
+
+                                                <a class="collapsed card-link"
+                                                    onclick="prepareFrame('AbstractionMethods','D_Collection/A_List/B_LinkedList/LinkedListMethod.java')">
+                                                    Basic Into
+                                                </a><br>
+
+                                                <a class="collapsed card-link"
+                                                    onclick="hideFrame('AbstractionMethods')">
+                                                    hide</a><br>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div id="AbstractionMethods"></div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Inheritance -->
+                    <div>
+
+                        <li class="list-group-item list-group-item-success sublist" data-toggle="collapse"
+                            data-target="#collapseInheritance" aria-expanded="false"
+                            aria-controls="collapseInheritance">Inheritance
+                        </li>
+
+                        <div class="collapse" id="collapseInheritance">
+
+                            <div id="accordion">
+                                <div class="card sublist">
+
+                                    <div class="card-header">
+                                        <div class="btn-group">
+
+                                            <button type="button" class="btn btn-primary dropdown-toggle"
+                                                data-toggle="dropdown">
+                                                Programs
+                                            </button>
+
+                                            <div class="dropdown-menu">
+
+                                                <a class="collapsed card-link"
+                                                    onclick="prepareFrame('InheritanceMethods','D_Collection/A_List/B_LinkedList/LinkedListMethod.java')">
+                                                    check</a><br>
+
+                                                <a class="collapsed card-link"
+                                                    onclick="prepareFrame('InheritanceMethods','D_Collection/A_List/B_LinkedList/LinkedListMethod.java')">
+                                                    Basic Method1 </a><br>
+
+                                                <a class="collapsed card-link"
+                                                    onclick="prepareFrame('InheritanceMethods','D_Collection/A_List/B_LinkedList/LinkedListMethod.java')">
+                                                    Basic Into
+                                                </a><br>
+
+                                                <a class="collapsed card-link"
+                                                    onclick="hideFrame('InheritanceMethods')">
+                                                    hide</a><br>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div id="InheritanceMethods"></div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Polymorphism -->
+                    <div>
+
+                        <li class="list-group-item list-group-item-success sublist" data-toggle="collapse"
+                            data-target="#collapsePolymorphism" aria-expanded="false"
+                            aria-controls="collapsePolymorphism">Polymorphism
+                        </li>
+
+                        <div class="collapse" id="collapsePolymorphism">
+
+                            <div id="accordion">
+                                <div class="card sublist">
+
+                                    <div class="card-header">
+                                        <div class="btn-group">
+
+                                            <button type="button" class="btn btn-primary dropdown-toggle"
+                                                data-toggle="dropdown">
+                                                Programs
+                                            </button>
+
+                                            <div class="dropdown-menu">
+
+                                                <a class="collapsed card-link"
+                                                    onclick="prepareFrame('PolymorphismMethods','D_Collection/A_List/B_LinkedList/LinkedListMethod.java')">
+                                                    check</a><br>
+
+                                                <a class="collapsed card-link"
+                                                    onclick="prepareFrame('PolymorphismMethods','D_Collection/A_List/B_LinkedList/LinkedListMethod.java')">
+                                                    Basic Method1 </a><br>
+
+                                                <a class="collapsed card-link"
+                                                    onclick="prepareFrame('PolymorphismMethods','D_Collection/A_List/B_LinkedList/LinkedListMethod.java')">
+                                                    Basic Into
+                                                </a><br>
+
+                                                <a class="collapsed card-link"
+                                                    onclick="hideFrame('PolymorphismMethods')">
+                                                    hide</a><br>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div id="PolymorphismMethods"></div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- OOPS Programs -->
+
+
+                </div>
+
+            </ul>
+        </div>
+
+        <br><br>
+
+        <!-- OOPS Programs -->
+        <div class="list-group">
+
+            <ul class="list-group">
+
+                <!-- OOPS Programs Header -->
+                <div>
+                    <li class="list-group-item list-group-item-primary sublist" data-toggle="collapse"
+                        data-target="#collapseOOPSProg" aria-expanded="false" aria-controls="collapseOOPSProg">
+                        <h4>OOPS Programs</h4>
+                    </li>
+                </div>
+
+                <!-- List -->
+                <div id="collapseOOPSProg" class="collapse">
+
+                    <div>
+                        <div id="accordion">
+                            <div class="card sublist">
+
+                                <div class="card-header">
+                                    <div class="btn-group">
+
+                                        <button type="button" class="btn btn-primary dropdown-toggle"
+                                            data-toggle="dropdown">
+                                            Programs
+                                        </button>
+
+                                        <div class="dropdown-menu">
+
+                                            <a class="collapsed card-link"
+                                                onclick="prepareFrame('OOPSProgMethods','D_Collection/A_List/B_LinkedList/LinkedListMethod.java')">
+                                                My SmartPhone</a><br>
+
+                                            <a class="collapsed card-link"
+                                                onclick="prepareFrame('OOPSProgMethods','D_Collection/A_List/B_LinkedList/LinkedListMethod.java')">
+                                                Student Registarion </a><br>
+
+                                            <a class="collapsed card-link"
+                                                onclick="prepareFrame('OOPSProgMethods','D_Collection/A_List/B_LinkedList/LinkedListMethod.java')">
+                                                Basic Into
+                                            </a><br>
+
+                                            <a class="collapsed card-link" onclick="hideFrame('OOPSProgMethods')">
+                                                hide</a><br>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div id="OOPSProgMethods"></div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </ul>
+        </div>
+
+        <br><br>
+
+
+        <!-- MultiThreading -->
+        <div class="list-group">
+
+            <ul class="list-group">
+
+                <!-- MultiThreading Header -->
+                <div>
+                    <li class="list-group-item list-group-item-primary sublist" data-toggle="collapse"
+                        data-target="#collapseMultiThread" aria-expanded="false" aria-controls="collapseMultiThread">
+                        <h4>Multi Threading</h4>
+                    </li>
+                </div>
+
+                <!-- List -->
+                <div id="collapseMultiThread" class="collapse">
+
+                    <li class="list-group-item list-group-item-success sublist" data-toggle="collapse"
+                        data-target="#collapseIntroduction" aria-expanded="false" aria-controls="collapseIntroduction">
+                        Basic Introduction
+                    </li>
+
+                    <div class="collapse" id="collapseIntroduction">
+
+                        <div id="accordion">
+
+                            <!-- Programs -->
+                            <div class="card sublist">
+
+                                <div class="card-header">
+                                    <div class="btn-group">
+
+                                        <button type="button" class="btn btn-primary dropdown-toggle"
+                                            data-toggle="dropdown">
+                                            Programs
+                                        </button>
+
+                                        <div class="dropdown-menu">
+
+                                            <a class="collapsed card-link"
+                                                onclick="prepareFrame(' MultiThreadMethods','A_Introduction/HelloWorld.java')">
+                                                Demo</a><br>
+
+                                            <a class="collapsed card-link" onclick="hideFrame(' MultiThreadMethods')">
+                                                hide</a><br>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div id=" MultiThreadMethods"></div>
+
+                            </div>
+
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </ul>
+        </div>
+
+        <br><br>
+
+        <!-- ExceptionHandling -->
+        <div class="list-group">
+
+            <ul class="list-group">
+
+                <!-- Introduction Header -->
+                <div>
+                    <li class="list-group-item list-group-item-primary sublist" data-toggle="collapse"
+                        data-target="#collapseException" aria-expanded="false" aria-controls="collapseException">
+                        <h4>Exception Handling</h4>
+                    </li>
+                </div>
+
+                <!-- List -->
+                <div id="collapseException" class="collapse">
+
+                    <li class="list-group-item list-group-item-success sublist" data-toggle="collapse"
+                        data-target="#collapseExcIntroduction" aria-expanded="false"
+                        aria-controls="collapseExcIntroduction">
+                        Basic Introduction
+                    </li>
+
+                    <div class="collapse" id="collapseExcIntroduction">
+
+                        <div id="accordion">
+
+                            <!-- Programs -->
+                            <div class="card sublist">
+
+                                <div class="card-header">
+                                    <div class="btn-group">
+
+                                        <button type="button" class="btn btn-primary dropdown-toggle"
+                                            data-toggle="dropdown">
+                                            Programs
+                                        </button>
+
+                                        <div class="dropdown-menu">
+
+                                            <a class="collapsed card-link"
+                                                onclick="prepareFrame('ExcMethods','A_Introduction/HelloWorld.java')">
+                                                Demo</a><br>
+
+                                            <a class="collapsed card-link" onclick="hideFrame('ExcMethods')">
+                                                hide</a><br>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div id="ExcMethods"></div>
+
+                            </div>
+
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </ul>
+        </div>
+
+        <br><br>
+
+        <!-- Comperator_Comperable-->
+        <div class="list-group">
+
+            <ul class="list-group">
+
+                <!-- Comperator_Comperable Header -->
+                <div>
+                    <li class="list-group-item list-group-item-primary sublist" data-toggle="collapse"
+                        data-target="#collapseComp" aria-expanded="false" aria-controls="collapseComp">
+                        <h4>Comperator & Comperable</h4>
+                    </li>
+                </div>
+
+                <!-- List -->
+                <div id="collapseComp" class="collapse">
+
+                    <!-- Comperator -->
+                    <div>
+
+                        <li class="list-group-item list-group-item-success sublist" data-toggle="collapse"
+                            data-target="#collapseComperator" aria-expanded="false" aria-controls="collapseComperator">
+                            Comperator
+                        </li>
+
+                        <div class="collapse" id="collapseComperator">
+
+                            <div id="accordion">
+
+                                <!-- Programs -->
+                                <div class="card sublist">
+
+                                    <div class="card-header">
+                                        <div class="btn-group">
+
+                                            <button type="button" class="btn btn-primary dropdown-toggle"
+                                                data-toggle="dropdown">
+                                                Programs
+                                            </button>
+
+                                            <div class="dropdown-menu">
+
+                                                <a class="collapsed card-link"
+                                                    onclick="prepareFrame('ComperatorMethods','A_Introduction/HelloWorld.java')">
+                                                    Hello World</a><br>
+
+                                                <a class="collapsed card-link" onclick="hideFrame('ComperatorMethods')">
+                                                    hide</a><br>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div id="ComperatorMethods"></div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Comperable -->
+                    <div>
+
+                        <li class="list-group-item list-group-item-success sublist" data-toggle="collapse"
+                            data-target="#collapseComperable" aria-expanded="false" aria-controls="collapseComperable">
+                            Comperable
+                        </li>
+
+                        <div class="collapse" id="collapseComperable">
+
+                            <div id="accordion">
+
+                                <!-- Programs -->
+                                <div class="card sublist">
+
+                                    <div class="card-header">
+                                        <div class="btn-group">
+
+                                            <button type="button" class="btn btn-primary dropdown-toggle"
+                                                data-toggle="dropdown">
+                                                Programs
+                                            </button>
+
+                                            <div class="dropdown-menu">
+
+                                                <a class="collapsed card-link"
+                                                    onclick="prepareFrame('ComperableMethods','A_Introduction/HelloWorld.java')">
+                                                    Hello World</a><br>
+
+                                                <a class="collapsed card-link" onclick="hideFrame('ComperableMethods')">
+                                                    hide</a><br>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div id="ComperableMethods"></div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </ul>
+        </div>
+
+        <br><br>
+
+        <!-- File Handling -->
+        <div class="list-group">
+
+            <ul class="list-group">
+
+                <!-- FileHandling Header -->
+                <div>
+                    <li class="list-group-item list-group-item-primary sublist" data-toggle="collapse"
+                        data-target="#collapseFileHandling" aria-expanded="false" aria-controls="collapseFileHandling">
+                        <h4>File Handling</h4>
+                    </li>
+                </div>
+
+                <!-- List -->
+                <div id="collapseFileHandling" class="collapse">
+
+                    <li class="list-group-item list-group-item-success sublist" data-toggle="collapse"
+                        data-target="#collapseIntroduction" aria-expanded="false" aria-controls="collapseIntroduction">
+                        Basic Introduction
+                    </li>
+
+                    <div class="collapse" id="collapseIntroduction">
+
+                        <div id="accordion">
+
+                            <!-- Programs -->
+                            <div class="card sublist">
+
+                                <div class="card-header">
+                                    <div class="btn-group">
+
+                                        <button type="button" class="btn btn-primary dropdown-toggle"
+                                            data-toggle="dropdown">
+                                            Programs
+                                        </button>
+
+                                        <div class="dropdown-menu">
+
+                                            <a class="collapsed card-link"
+                                                onclick="prepareFrame('FileHandlingMethods','A_Introduction/HelloWorld.java')">
+                                                Hello World</a><br>
+
+                                            <a class="collapsed card-link" onclick="hideFrame('FileHandlingMethods')">
+                                                hide</a><br>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div id="FileHandlingMethods"></div>
+
+                            </div>
+
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </ul>
+        </div>
+
+        <br><br>
+
+
+    </div>
+
+
+</body>
+
+</html>
