@@ -3,7 +3,7 @@ function hideFrame(position) {
 }
 
 function prepareFrame(position, src) {
-    src='https://saurabhkumarr99.github.io/Java-Revision/'+src;
+    src='https://saurabhkumarr99.github.io/Java-Basic/src/'+src;
     var ifrm = document.createElement("iframe");
     ifrm.setAttribute("src", src);
     ifrm.style.width = "100%";
